@@ -3,6 +3,7 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
 
@@ -26,9 +27,14 @@ header {
   background-color: #e2e2e2;
 }
 
+h1 {
+  text-align: left;
+}
+
 li {
   text-decoration: none;
   display: inline-block;
+  text-align: center;
 }
 
 a {
